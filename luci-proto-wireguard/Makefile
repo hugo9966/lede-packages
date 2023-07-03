@@ -10,6 +10,6 @@ LUCI_TITLE:=Support for WireGuard VPN
 LUCI_DEPENDS:=+wireguard-tools +libuci-lua
 LUCI_PKGARCH:=all
 
-include ../../luci.mk
+include $(TOPDIR)/feeds/luci/luci.mk
 
 # call BuildPackage - OpenWrt buildroot signature
